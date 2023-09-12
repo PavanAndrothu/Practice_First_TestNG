@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="demo Testng">
+    <classes>
+      <class name="Maveen_TestNG.new_testNG.TestCase1">
+      	<methods>
+      		<include name = "Testc1"></include>
+      		<include name = "Testc3"></include>
+      		<exclude name = "Testc2"></exclude>
+      	</methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
